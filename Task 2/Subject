@@ -1,0 +1,31 @@
+package com.company;
+
+public class Subject {
+    private String title;
+    private int grade;
+    private int credits;
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public void setCredits(int credits) {
+        this.credits = credits;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getCredits() {
+        return credits;
+    }
+}
