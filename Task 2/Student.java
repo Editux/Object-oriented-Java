@@ -23,9 +23,6 @@ public class Student {
         this.group = group;
     }
 
-    public void setSubject(Subject[] subject) {
-      this.subject=subject;
-    }
 
     public String getName() {
         return name;
@@ -39,9 +36,7 @@ public class Student {
         return group;
     }
 
-    public Subject[] getSubject() {
-        return subject.clone();
-    }
+ 
 
     public double getAverage(int size) {
         float sum_a=0;
