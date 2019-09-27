@@ -54,8 +54,8 @@ public class Student {
 
 
 
-            sum_a += sum_a + subject[i].getGrade();
-            sum_b += sum_b+ subject[i].getCredits(); ;
+            sum_a = sum_a + subject[i].getGrade() * subject[i].getCredits;
+            sum_b = sum_b+ subject[i].getCredits(); ;
 
         }
         average =sum_a *sum_b/sum_b;
